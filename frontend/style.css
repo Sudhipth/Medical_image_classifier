@@ -1,0 +1,119 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f6fa;
+  color: #333;
+}
+
+nav {
+  background-color: #3a0ca3;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a.active {
+  text-decoration: underline;
+}
+
+.hero {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #edf2ff;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #3a0ca3;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+.btn {
+  padding: 0.8rem 1.5rem;
+  background: #3a0ca3;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  text-decoration: none;
+}
+
+.info-section, .about-section, .predict-section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.about-list {
+  text-align: left;
+  margin: 1rem auto;
+  max-width: 600px;
+  list-style-type: disc;
+}
+
+.about-list li {
+  margin-bottom: 0.5rem;
+}
+
+.social-links a {
+  margin: 1rem;
+  text-decoration: none;
+  color: #3a0ca3;
+  font-weight: bold;
+}
+
+input[type="file"], button {
+  margin-top: 1rem;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #3a0ca3;
+  color: white;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}

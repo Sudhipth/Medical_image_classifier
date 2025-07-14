@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PCOS Predictor | Predict</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <div class="logo">PCOS Predictor</div>
+    <ul class="nav-links">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="predict.html" class="active">Predict</a></li>
+    </ul>
+  </nav>
+
+  <main class="predict-section">
+    <h1>Upload Ultrasound Image</h1>
+    <input type="file" id="imageUpload" />
+    <br/><br/>
+    <img id="imagePreview" style="max-width: 300px; display:none;" />
+    <br/>
+    <button onclick="predict()">Predict</button>
+
+    <h2 id="result"></h2>
+
+    <h3 id="limeTitle" style="display:none;">LIME Explanation:</h3>
+    <img id="limeImage" src="" alt="LIME Explanation" style="display:none; max-width:300px;" />
+    
+    <br/>
+    <button id="downloadBtn" onclick="downloadPDF()" style="display:none;">Download PDF</button>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
