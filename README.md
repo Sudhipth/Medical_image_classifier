@@ -104,3 +104,11 @@ Final selected model: **Custom CNN (99.87% Accuracy)**
    ```bash
    git clone https://github.com/Sudhipth/Medical_image_classifier.git
    cd Medical_image_classifier
+
+---
+## 📬 Contact
+
+* If you have any queries related to this project, feel free to reach out:
+```bash
+📧 vjsudhipth@gmail.com
+```
