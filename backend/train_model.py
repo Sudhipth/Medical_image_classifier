@@ -5,7 +5,7 @@ from keras.preprocessing.image import ImageDataGenerator
 from keras.optimizers import Adam
 
 # Set the path to your dataset
-data_dir = r"E:\suve\Work Status\PCOS\Project\medical-image-classifier\data"
+data_dir = r"E:\sudhipth\Work Status\PCOS\Project\medical-image-classifier\data"
 
 # Image data generator with validation split
 datagen = ImageDataGenerator(rescale=1./255, validation_split=0.2)
